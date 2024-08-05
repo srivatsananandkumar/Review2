@@ -10,6 +10,7 @@ function App() {
         {/* <Route path="/" element={<HomePage />} />
         <Route path="/profile" element={<ProfilePage />} /> */}
         <Route path="/signin" element={<SignUI />} />
+        
         {/* <Route path="/signup" element={<SignUpPage />} /> */}
       </Routes>
     </Router>

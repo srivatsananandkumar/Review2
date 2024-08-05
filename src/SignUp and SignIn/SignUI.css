@@ -17,14 +17,14 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #ffffff;
+  background: url("https://i.pinimg.com/474x/81/b7/07/81b7075b957663d6ed421c9742895898.jpg");
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.box {
+.box-225 {
   position: relative;
   width: 100%;
   max-width: 1020px;
@@ -34,7 +34,7 @@ main {
   box-shadow: 0px 0px 25px #000000; /* Inset shadow */
 }
 
-.inner-box {
+.inner-box-225 {
   position: absolute;
   width: calc(100% - 4.1rem);
   height: calc(100% - 4.1rem);
@@ -43,7 +43,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-.forms-wrap {
+.forms-wrap-225 {
   position: absolute;
   height: 100%;
   width: 45%;
@@ -68,41 +68,41 @@ form {
   transition: opacity 0.02s 0.4s;
 }
 
-form.sign-up-form {
+form.sign-up-form-225 {
   opacity: 0;
   pointer-events: none;
 }
 
-.logo {
+.logo-225 {
   display: flex;
   align-items: center;
 }
 
-.logo img {
+.logo-225 img {
   width: 27px;
   margin-right: 0.3rem;
 }
 
-.logo h4 {
+.logo-225 h4 {
   font-size: 1.1rem;
   letter-spacing: -0.5px;
   color: #151111;
 }
 
-.heading h2 {
+.heading-225 h2 {
   font-size: 2.1rem;
   font-weight: 600;
-  color: #151111;
+  color: #343030;
 }
 
-.heading h6 {
-  color: #bababa;
+.heading-225 h6 {
+  color: #ff0000;
   font-weight: 400;
   font-size: 0.75rem;
   display: inline;
 }
 
-.toggle {
+.toggle-225 {
   color: #151111;
   text-decoration: none;
   font-size: 0.75rem;
@@ -110,17 +110,17 @@ form.sign-up-form {
   transition: 0.3s;
 }
 
-.toggle:hover {
+.toggle-225:hover {
   color: #8371fd;
 }
 
-.input-wrap {
+.input-wrap-225 {
   position: relative;
   height: 37px;
   margin-bottom: 2rem;
 }
 
-.input-field {
+.input-field-225 {
   width: 100%;
   height: 100%;
   background: none;
@@ -144,16 +144,16 @@ label {
   transition: 0.4s;
 }
 
-.input-field.active {
+.input-field-225.active {
   border-bottom-color: #151111;
 }
 
-.input-field.active + label {
+.input-field-225.active + label {
   font-size: 0.75rem;
   top: -2px;
 }
 
-.sign-btn {
+.sign-btn-225 {
   display: inline-block;
   width: 100%;
   height: 43px;
@@ -167,43 +167,43 @@ label {
   transition: 0.3s;
 }
 
-.sign-btn:hover {
+.sign-btn-225:hover {
   background-color: #8371fd;
 }
 
-.text {
+.text-225 {
   color: #bbb;
   font-size: 0.7rem;
 }
 
-.text a {
+.text-225 a {
   color: #bbb;
   transition: 0.3s;
 }
 
-.text a:hover {
+.text-225 a:hover {
   color: #8371fd;
 }
 
-main.sign-up-mode form.sign-in-form {
+main.sign-up-mode-225 form.sign-in-form-225 {
   opacity: 0;
   pointer-events: none;
 }
 
-main.sign-up-mode form.sign-up-form {
+main.sign-up-mode-225 form.sign-up-form-225 {
   opacity: 1;
   pointer-events: all;
 }
 
-main.sign-up-mode .forms-wrap {
+main.sign-up-mode-225 .forms-wrap-225 {
   left: 55%;
 }
 
-main.sign-up-mode .carousel {
+main.sign-up-mode-225 .carousel-225 {
   left: 0%;
 }
 
-.carousel {
+.carousel-225 {
   position: absolute;
   height: 100%;
   width: 55%;
@@ -218,13 +218,13 @@ main.sign-up-mode .carousel {
   transition: 0.8s ease-in-out;
 }
 
-.images-wrapper {
+.images-wrapper-225 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
 
-.image {
+.image-225 {
   width: 100%;
   grid-column: 1/2;
   grid-row: 1/2;
@@ -244,25 +244,25 @@ main.sign-up-mode .carousel {
   transform: scale(0.3) rotate(-20deg);
 }
 
-.image.show {
+.image-225.show {
   opacity: 1;
   transform: none;
 }
 
-.text-slider {
+.text-slider-225 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.text-wrap {
+.text-wrap-225 {
   max-height: 2.2rem;
   overflow: hidden;
   margin-bottom: 2.5rem;
 }
 
-.text-group {
+.text-group-225 {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -270,19 +270,19 @@ main.sign-up-mode .carousel {
   transition: 0.5s;
 }
 
-.text-group h2 {
+.text-group-225 h2 {
   line-height: 2.2rem;
   font-weight: 600;
   font-size: 1.6rem;
 }
 
-.bullets {
+.bullets-225 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.bullets span {
+.bullets-225 span {
   display: block;
   width: 0.5rem;
   height: 0.5rem;
@@ -293,20 +293,20 @@ main.sign-up-mode .carousel {
   transition: 0.3s;
 }
 
-.bullets span.active {
+.bullets-225 span.active {
   width: 1.1rem;
   background-color: #151111;
   border-radius: 1rem;
 }
 
 @media (max-width: 850px) {
-  .box {
+  .box-225 {
     height: auto;
     max-width: 550px;
     overflow: hidden;
   }
 
-  .inner-box {
+  .inner-box-225 {
     position: static;
     transform: none;
     width: revert;
@@ -314,7 +314,7 @@ main.sign-up-mode .carousel {
     padding: 2rem;
   }
 
-  .forms-wrap {
+  .forms-wrap-225 {
     position: revert;
     width: 100%;
     height: auto;
@@ -326,23 +326,23 @@ main.sign-up-mode .carousel {
     transition: transform 0.8s ease-in-out, opacity 0.45s linear;
   }
 
-  .heading {
+  .heading-225 {
     margin: 2rem 0;
   }
 
-  form.sign-up-form {
+  form.sign-up-form-225 {
     transform: translateX(100%);
   }
 
-  main.sign-up-mode form.sign-in-form {
+  main.sign-up-mode-225 form.sign-in-form-225 {
     transform: translateX(-100%);
   }
 
-  main.sign-up-mode form.sign-up-form {
+  main.sign-up-mode-225 form.sign-up-form-225 {
     transform: translateX(0%);
   }
 
-  .carousel {
+  .carousel-225 {
     position: revert;
     height: auto;
     width: 100%;
@@ -350,11 +350,11 @@ main.sign-up-mode .carousel {
     display: flex;
   }
 
-  .images-wrapper {
+  .images-wrapper-225 {
     display: none;
   }
 
-  .text-slider {
+  .text-slider-225 {
     width: 100%;
   }
 }
@@ -364,28 +364,24 @@ main.sign-up-mode .carousel {
     padding: 1rem;
   }
 
-  .box {
+  .box-225 {
     border-radius: 2rem;
   }
 
-  .inner-box {
+  .inner-box-225 {
     padding: 1rem;
   }
 
-  .carousel {
+  .carousel-225 {
     padding: 1.5rem 1rem;
     border-radius: 1.6rem;
   }
 
-  .text-wrap {
+  .text-wrap-225 {
     margin-bottom: 1rem;
   }
 
-  .text-group h2 {
-    font-size: 1.2rem;
-  }
-
-  form {
-    padding: 1rem 2rem 1.5rem;
+  .text-group-225 h2 {
+    font-size: 1;
   }
 }

@@ -79,27 +79,27 @@ const SignUI = () => {
   };
 
   return (
-    <main className={isSignUpMode ? "sign-up-mode" : ""}>
-      <div className="box">
-        <div className="inner-box">
-          <div className="forms-wrap">
-            <form onSubmit={handleSignInSubmit} className={`sign-in-form ${isSignUpMode ? "hidden" : ""}`}>
-              <div className="logo">
+    <main className={isSignUpMode ? "sign-up-mode-225" : "sign-in-mode-225"}>
+      <div className="box-225">
+        <div className="inner-box-225">
+          <div className="forms-wrap-225">
+            <form onSubmit={handleSignInSubmit} className={`sign-in-form-225 ${isSignUpMode ? "hidden" : ""}`}>
+              <div className="logo-225">
                 <img src="../src/Images/hirehaven-high-resolution-logo-white.jpeg" alt="HIREHAVEN" />
                 <h4>HIREHAVEN</h4>
               </div>
 
-              <div className="heading">
+              <div className="heading-225">
                 <h2>Welcome Back</h2>
                 <h6>Not registered yet?</h6>
-                <a href="#" className="toggle" onClick={handleToggleClick}>Sign up</a>
+                <a href="#" className="toggle-225" onClick={handleToggleClick}>Sign up</a>
               </div>
 
-              <div className="actual-form">
-                <div className="input-wrap">
+              <div className="actual-form-225">
+                <div className="input-wrap-225">
                   <input
                     type="email"
-                    className="input-field"
+                    className="input-field-225"
                     autoComplete="off"
                     required
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
@@ -108,69 +108,69 @@ const SignUI = () => {
                   <label>Email</label>
                 </div>
 
-                <div className="input-wrap">
+                <div className="input-wrap-225">
                   <input
                     type="password"
                     minLength="4"
-                    className="input-field"
+                    className="input-field-225"
                     autoComplete="off"
                     required
                   />
                   <label>Password</label>
                 </div>
 
-                <input type="submit" value="Sign In" className="sign-btn" />
+                <a href="/portfolio"><input type="submit" value="Sign In" className="sign-btn-225" /></a>
               </div>
             </form>
 
-            <form className={`sign-up-form ${!isSignUpMode ? "hidden" : ""}`}>
-              <div className="logo">
+            <form className={`sign-up-form-225 ${!isSignUpMode ? "hidden" : ""}`}>
+              <div className="logo-225">
                 <img src="../src/Images/hirehaven-high-resolution-logo-white.jpeg" alt="HIREHAVEN" />
                 <h4>HIREHAVEN</h4>
               </div>
 
-              <div className="heading">
+              <div className="heading-225">
                 <h2>Get Started</h2>
                 <h6>Already have an account?</h6>
-                <a href="#" className="toggle" onClick={handleToggleClick}>Sign in</a>
+                <a href="#" className="toggle-225" onClick={handleToggleClick}>Sign in</a>
               </div>
 
-              <div className="actual-form">
-                <div className="input-wrap">
+              <div className="actual-form-225">
+                <div className="input-wrap-225">
                   <input
                     type="text"
                     minLength="4"
-                    className="input-field"
+                    className="input-field-225"
                     autoComplete="off"
                     required
                   />
                   <label>Name</label>
                 </div>
 
-                <div className="input-wrap">
+                <div className="input-wrap-225">
                   <input
                     type="email"
-                    className="input-field"
+                    className="input-field-225"
                     autoComplete="off"
                     required
                   />
                   <label>Email</label>
                 </div>
 
-                <div className="input-wrap">
+                <div className="input-wrap-225">
                   <input
                     type="password"
                     minLength="4"
-                    className="input-field"
+                    className="input-field-225"
                     autoComplete="off"
                     required
                   />
                   <label>Password</label>
                 </div>
 
-                <input type="submit" value="Sign Up" className="sign-btn" />
+                <input type="submit" value="Sign Up" className="sign-btn-225" />
 
-                <p className="text">
+                <p className="text-225">
                   By signing up, I agree to the <a href="#">Terms of Services</a> and{" "}
                   <a href="#">Privacy Policy</a>
                 </p>
@@ -178,35 +178,35 @@ const SignUI = () => {
             </form>
           </div>
 
-          <div className="carousel">
-            <div className="images-wrapper">
+          <div className="carousel-225">
+            <div className="images-wrapper-225">
               <img
                 src="../src/Images/internships-high-resolution-logo.jpeg"
-                className={`image img-1 ${activeBullet === 1 ? "show" : ""}`}
+                className={`image-225 img-1 ${activeBullet === 1 ? "show" : ""}`}
                 alt=""
               />
               <img
                 src="../src/Images/jobs-high-resolution-logo.jpeg"
-                className={`image img-2 ${activeBullet === 2 ? "show" : ""}`}
+                className={`image-225 img-2 ${activeBullet === 2 ? "show" : ""}`}
                 alt=""
               />
               <img
                 src="../src/Images/image3.png"
-                className={`image img-3 ${activeBullet === 3 ? "show" : ""}`}
+                className={`image-225 img-3 ${activeBullet === 3 ? "show" : ""}`}
                 alt=""
               />
             </div>
 
-            <div className="text-slider">
-              <div className="text-wrap">
-                <div className="text-group">
+            <div className="text-slider-225">
+              <div className="text-wrap-225">
+                <div className="text-group-225">
                   <h2>Explore Internships</h2>
                   <h2>Land your dream job</h2>
                   <h2>Find top talent fast</h2>
                 </div>
               </div>
 
-              <div className="bullets">
+              <div className="bullets-225">
                 <span
                   className={activeBullet === 1 ? "active" : ""}
                   data-value="1"
